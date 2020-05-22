@@ -7949,7 +7949,7 @@ exports.displayHttpDiagnostics = displayHttpDiagnostics;
  *
  * FilePaths can include characters such as \ and / which are not permitted in the artifact name alone
  */
-const invalidArtifactFilePathCharacters = ['"', ':', '<', '>', '|', '*', '?'];
+const invalidArtifactFilePathCharacters = ['"', '<', '>', '|', '*', '?'];
 const invalidArtifactNameCharacters = [
     ...invalidArtifactFilePathCharacters,
     '\\',
